@@ -1,0 +1,246 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", Arial;
+  height: 100vh;
+  color: white;
+}
+
+header {
+    background-color: black;
+    height: 1024px;
+}
+
+@media only screen and (max-width: 360px) {
+  header {
+    height: 600px;
+  }
+}
+
+.logo img {
+  height: 72px;
+  width: 72px;
+  margin-top: 50px;
+  margin-left: 60px;
+  position: absolute;
+}
+
+@media only screen and (max-width: 360px) {
+  .logo img {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+}
+
+nav {
+  float: right;
+  margin-right: 94px;
+  margin-top: 75px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  padding-left: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #b2b2b2;
+  font-family: "Open Sans", Arial;
+  font-size: 19.4px;
+  font-weight: lighter;
+}
+
+nav ul li a:hover {
+  color: #d3d1d1;
+}
+
+@media only screen and (max-width: 360px) {
+  nav ul li a {
+    font-size: 15px;
+  }
+
+  nav {
+    margin-right: 20px;
+    margin-top: 40px;
+  }
+}
+
+.hero {
+  font-family: "Montserrat", Arial;
+  font-size: 92.9px;
+  font-weight: normal;
+  padding-top: 397px;
+  text-align: center;
+  padding-bottom: 210px;
+}
+
+@media only screen and (max-width: 360px) {
+  .hero {
+    font-size: 50px;
+    padding-top: 300px;
+    padding-bottom: 80px;
+  }
+}
+
+.kicker {
+  font-family: "Montserrat", Arial;
+  font-size: 33.59px;
+  font-weight: normal;
+  padding-left: 54px;
+  padding-bottom: 65px;
+}
+
+@media only screen and (max-width: 360px) {
+  .kicker {
+    font-size: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+  }
+}
+
+.more a {
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans", Arial;
+  border: solid 2px white;
+  border-radius: 10px;
+  padding: 26px 25px;
+  font-size: 19.28px;
+  margin-left: 54px;
+}
+
+.more a:hover {
+  background-color: white;
+  color: #727272;
+}
+
+@media only screen and (max-width: 360px) {
+  .more a {
+    font-size: 14px;
+    padding: 10px 15px;
+    margin-left: 30px;
+  }
+}
+
+.about {
+  height: 762px;
+}
+
+.aboutHead {
+  color: black;
+  font-family: "Montserrat", Arial
+  font-size: 33.59px;
+  padding: 56px 60px 90px;
+}
+
+.aboutScript {
+  font-family: "Open Sans", Arial;
+  color: black;
+  padding-left: 60px;
+  padding-right: 50px;
+  font-size: 20px;
+  padding-bottom: 70px;
+}
+
+bold {
+  font-weight: bold;
+}
+
+.aboutScript a {
+  color:#2a3c77;
+}
+
+.projects a {
+  text-decoration: none;
+  color: black;
+  font-family: "Open Sans", Arial;
+  border: solid 2px black;
+  border-radius: 10px;
+  padding: 20px 25px;
+  font-size: 19.28px;
+  margin-left: 60px;
+}
+
+.projects a:hover {
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (max-width: 360px) {
+  .aboutHead {
+    font-size: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+  }
+
+  .aboutScript {
+    font-size: 15px;
+    padding-left: 30px;
+  }
+
+  .projects a {
+    font-size: 14px;
+  }
+}
+
+.footer {
+  background-color: black;
+  height: 762px;
+}
+
+.mainHead {
+  font-family: "Montserrat", Arial
+  font-size: 33.59px;
+  padding: 56px 60px 90px;
+}
+
+.sendMessage a {
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans", Arial;
+  border: solid 2px white;
+  border-radius: 10px;
+  padding: 12px 20px;
+  font-size: 15px;
+  margin-left: 60px;
+}
+
+.sendMessage a:hover {
+  background-color: white;
+  color: black;
+}
+
+.hitMe {
+  font-family: "Open Sans", Arial;
+  color: white;
+  padding-left: 60px;
+  padding-right: 50px;
+  font-size: 20px;
+  padding-bottom: 70px;
+  margin-top: 50px;
+  font-weight: lighter;
+}
+
+.social a {
+  color: white;
+  text-decoration: none;
+  font-family: "Open Sans", Arial;
+  font-size: 15px;
+  border: solid 2px white;
+  border-radius: 10px;
+  padding: 12px 20px;
+  margin: 0 60px 20px;
+}
+
+.social a:hover {
+  background-color: white;
+  color: black;
+}
